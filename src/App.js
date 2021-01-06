@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import { StoriesContainer } from './containers/StoriesContainer';
+import './index.css'
+import { Story } from './components/Story';
 
 export default function App() {
   return (
-      <StoriesContainer/>
-  );
+<Story></Story>  );
 }
